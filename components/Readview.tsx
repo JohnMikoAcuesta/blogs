@@ -4,7 +4,7 @@ import React from 'react'
 function Readview() {
   return (
     <section id="read-blog" className="relative max-w-7xl mx-auto mb-3 px-4">
-        <Image className="rounded-lg" src="/blogs/blog-top-1.png" alt="Blog Cover" width={1920} height={1080}/>
+        <Image className="rounded-lg" src="/blog-top-1.png" alt="Blog Cover" width={1920} height={1080}/>
         <div className="flex text-white mt-7 gap-x-5">
             <div className="flex-1/3 w-70">
                 <h1 className="text-3xl font-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
@@ -23,7 +23,7 @@ function Readview() {
                     sed fermentum metus faucibus. Nulla ullamcorper libero sed velit laoreet blandit. Nulla congue consectetur
                     neque, in sagittis felis maximus quis.
 
-                    <Image className="rounded-lg my-4" src="/blogs/blog-top-1.png" alt="Blog Cover" width={1920} height={1080}/>
+                    <Image className="rounded-lg my-4" src="/blog-top-1.png" alt="Blog Cover" width={1920} height={1080}/>
 
                     Nullam consectetur arcu in nunc molestie, nec mattis dolor consectetur. In vel euismod turpis. Mauris neque nunc,
                     commodo non justo eget, semper auctor velit. Curabitur congue luctus mauris, vitae scelerisque nibh fermentum non.

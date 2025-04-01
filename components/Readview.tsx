@@ -6,7 +6,7 @@ function Readview() {
     <section id="read-blog" className="relative max-w-7xl mx-auto mb-3 px-4">
       <Image
         className="lg:rounded-lg rounded"
-        src="/blogs/blog-top-1.png"
+        src="/branding-vs-marketing/blog-top-1.png"
         alt="Branding vs. Marketing: Let's Cut the Jargon"
         width={1920}
         height={1080}
@@ -30,7 +30,7 @@ function Readview() {
             </div>
               <Image
                 className="lg:rounded-lg rounded my-6"
-                src="/blogs/blog-content-img-1.png"
+                src="/branding-vs-marketing/blog-content-img-1.png"
                 alt="Branding vs. Marketing Content"
                 width={1920}
                 height={1080}
@@ -80,14 +80,14 @@ function Readview() {
             <div className="flex flex-wrap">
             <Image
                 className="size-12 rounded-full m-1"
-                src="/blogs/gemini-logo.png"
+                src="/branding-vs-marketing/gemini-logo.png"
                 alt="Gemini"
                 width={1080}
                 height={1080}
               />
               <Image
                 className="size-12 rounded-full m-1 bg-amber-50"
-                src="/blogs/unsplash-logo.png"
+                src="/branding-vs-marketing/unsplash-logo.png"
                 alt="Unsplash"
                 width={1080}
                 height={1080}

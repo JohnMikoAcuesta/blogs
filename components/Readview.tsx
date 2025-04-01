@@ -1,64 +1,103 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from "next/image";
+import React from "react";
 
 function Readview() {
   return (
     <section id="read-blog" className="relative max-w-7xl mx-auto mb-3 px-4">
-        <Image className="rounded-lg" src="/blogs/blog-top-1.png" alt="Blog Cover" width={1920} height={1080}/>
-        <div className="flex text-white mt-7 gap-x-5">
-            <div className="flex-1/3 w-70">
-                <h1 className="text-3xl font-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
-                <br />
+      <Image
+        className="lg:rounded-lg rounded"
+        src="/blogs/blog-top-1.png"
+        alt="Branding vs. Marketing: Let's Cut the Jargon"
+        width={1920}
+        height={1080}
+      />
+      <div className="mt-7 grid lg:grid-cols-[70%_auto] gap-7 grid-cols-1 overflow-y-auto max-w-full">
+        <div className="content">
+            <h1 className="mb-4 text-4xl break-words bg-linear-to-r from-white to-slate-500 inline-block text-transparent bg-clip-text">
+                Branding vs. Marketing: Let's Cut the Jargon
+            </h1>
+            <br />
+            <div className="space-y-2">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempor ipsum at imperdiet egestas.
-                    Cras condimentum velit dolor, quis vulputate nunc semper id. Proin non egestas dolor.
-                    Integer fringilla ante magna, et eleifend felis pellentesque vel. Morbi tempus dignissim tellus,
-                    egestas sodales orci posuere at. Phasellus pellentesque tortor quis nibh porttitor ullamcorper.
-                    Fusce tincidunt tortor id eros mattis, vitae ultricies mauris iaculis.
-                    <br />
-                    Cras convallis fringilla quam sit amet luctus. Mauris vitae nulla et felis feugiat vestibulum.
-                    Fusce vel elit condimentum, tincidunt sem quis, consectetur tellus. Sed vitae dolor et est vehicula feugiat.
-                    Ut non purus eget magna porta condimentum id ultrices lectus. Morbi ex ligula, maximus vitae ultrices sed,
-                    tincidunt sit amet est. Curabitur et efficitur ex, id faucibus justo. Aliquam venenatis dolor eu mi hendrerit,
-                    sed fermentum metus faucibus. Nulla ullamcorper libero sed velit laoreet blandit. Nulla congue consectetur
-                    neque, in sagittis felis maximus quis.
-
-                    <Image className="rounded-lg my-4" src="/blogs/blog-top-1.png" alt="Blog Cover" width={1920} height={1080}/>
-
-                    Nullam consectetur arcu in nunc molestie, nec mattis dolor consectetur. In vel euismod turpis. Mauris neque nunc,
-                    commodo non justo eget, semper auctor velit. Curabitur congue luctus mauris, vitae scelerisque nibh fermentum non.
-                    Quisque pulvinar, dui ut vulputate semper, dui urna hendrerit metus, accumsan accumsan metus nisi sit amet sapien.
-                    Integer justo ipsum, ullamcorper ut venenatis eget, pellentesque eget ligula. Phasellus a placerat turpis. Nullam
-                    eleifend metus non urna bibendum elementum. Pellentesque enim ante, vulputate ut scelerisque vitae, molestie in orci.
-                    In tincidunt viverra vehicula. Sed id ex porta, lobortis sem ut, pharetra augue. Nam dictum, nulla id porttitor fermentum,
-                    nibh ex lobortis magna, et porta nibh mi vel nisi. Aenean nisi libero, varius et fringilla in, feugiat et nunc. Vivamus
-                    \vitae eleifend odio, at semper ipsum. Suspendisse sollicitudin, nisi et interdum faucibus, arcu ante sagittis nulla,
-                    quis malesuada mauris turpis eget massa. Maecenas pretium efficitur ipsum, vel viverra diam porttitor eget.
+                  Think of your brand as your personality. It's that gut feeling people get when they think of your business. It's the "vibe," the "why," the "what makes you, you?" It's not just a logo or a catchy slogan; it's the whole shebang – your values, how you treat customers, the story behind your business. It's that thing that makes someone say, "Yeah, I get them."
                 </p>
             </div>
-            <div className="flex-1">
-                <div className="mb-5">
-                    <small className="text-gray-300">Author</small>
-                    <h1 className="font-bold teext-2xl">John Miko Acuesta</h1>
-                    <div className="py-2 text-white">
-                        <small className="inline-block border-1 border-gray-200 rounded-full px-3 py-1 mr-2 mb-2">#photography</small>
-                        <small className="inline-block border-1 border-gray-200 rounded-full px-3 py-1 mr-2 mb-2">#travel</small>
-                        <small className="inline-block border-1 border-gray-200 rounded-full px-3 py-1 mr-2 mb-2">#winter</small>
-                    </div>
-                </div>
-
-                <div>
-                    <h3 style={{ marginBottom: '10px' }}>Contributors</h3>
-                    <div className="flex flex-wrap">
-                        <div className="size-12 rounded-full bg-amber-50 m-1"></div>
-                        <div className="size-12 rounded-full bg-amber-50 m-1"></div>
-                        <div className="size-12 rounded-full bg-amber-50 m-1"></div>
-                    </div>
-                </div>
+            <br />
+            <div className="space-y-2">
+                <p>
+                  Marketing? That's your megaphone. It's how you shout your personality from the rooftops. It’s the ads, the social media posts, the emails – all the stuff you do to get people to notice you. It's the "come check us out!" part of the equation.
+                </p>
+            </div>
+              <Image
+                className="lg:rounded-lg rounded my-6"
+                src="/blogs/blog-content-img-1.png"
+                alt="Branding vs. Marketing Content"
+                width={1920}
+                height={1080}
+              />
+              <div className="space-y-2">
+                <p className="font-bold text-xl">So, What's the Big Deal?</p>
+                  Okay, so why does this matter? Well, imagine trying to date someone without knowing who you are. Awkward, right? That's what marketing without a strong brand feels like. You're throwing stuff at the wall, hoping something sticks.
+                <ul className="list-disc pl-5">
+                  <li><span className="font-bold">Your Brand is Your Compass:</span> It tells you what to say, how to say it, and who to say it to. It keeps you consistent, so you don't look like a hot mess.</li>
+                  <li><span className="font-bold">Marketing is Your Wingman:</span> It takes that awesome personality you've built and gets it in front of the right people. It's the charm, the wit, the smooth moves.</li>
+                </ul>
+            </div>
+            <br />
+            <div className="space-y-2">
+                <p className="font-bold text-xl">Real Talk: How They Work Together</p>
+                Here's the deal: your brand should be whispering sweet nothings in your marketing's ear. Every ad, every tweet, every blog post should reflect who you are. If your brand is all about being fun and quirky, your marketing shouldn't be dry and corporate. It's like having a consistent voice, so people actually trust you.
+            </div>
+            <br />
+            <div className="space-y-2">
+                <p className="font-bold text-xl">Why Should You Care?</p>
+                Because people aren't just buying products anymore. They're buying into stories, into values, into you. A strong brand makes people feel something. It creates loyalty. And loyal customers? They're the ones who stick around, tell their friends, and basically become your free marketing team.
+            </div>
+            <br />
+            <div className="space-y-2">
+              So, stop thinking of branding and marketing as separate departments. They're partners in crime, working together to make your business the rockstar it deserves to be. Get your brand right, and your marketing will sing. Get them both right, and you've got something special.
             </div>
         </div>
+        <div className="details">
+          <div className="mb-5">
+            <small className="text-gray-300">Author</small>
+            <h1 className="font-bold teext-2xl">John Miko Acuesta</h1>
+            <div className="py-2 text-white">
+              <small className="inline-block border-1 border-gray-200 rounded-full px-3 py-1 mr-2 mb-2">
+                #BrandStrategy
+              </small>
+              <small className="inline-block border-1 border-gray-200 rounded-full px-3 py-1 mr-2 mb-2">
+                #BrandMatters
+              </small>
+              <small className="inline-block border-1 border-gray-200 rounded-full px-3 py-1 mr-2 mb-2">
+                #Marketing101
+              </small>
+            </div>
+          </div>
+
+          <div>
+            <h3 style={{ marginBottom: "10px" }}>Contributors</h3>
+            <div className="flex flex-wrap">
+            <Image
+                className="size-12 rounded-full m-1"
+                src="/blogs/gemini-logo.png"
+                alt="Gemini"
+                width={1080}
+                height={1080}
+              />
+              <Image
+                className="size-12 rounded-full m-1 bg-amber-50"
+                src="/blogs/unsplash-logo.png"
+                alt="Unsplash"
+                width={1080}
+                height={1080}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-  )
+  );
 }
 
-export default Readview
+export default Readview;

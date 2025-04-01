@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="top-0 z-10 p-5 text-md">
       <div className="flex flex-wrap items-center justify-between py-3 mx-auto mt-0 max-w-7xl">
-        <Link href="/">
+        <Link href="https://johnmikoacuesta.github.io">
           <Image src="/Logo-white.svg" alt="logo" width={128} height={44} />
         </Link>
         <ul className="hidden h-full gap-8 lg:flex text-gray-300 items-center">

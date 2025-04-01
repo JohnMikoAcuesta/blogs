@@ -1,9 +1,9 @@
 // Top Navigation
 export const NAV_LINKS = [
-    { href: '#experiences', key: 'experience', label: 'Experience'},
-    { href: '#testimonials', key: 'testimonials', label: 'Testimonial'},
-    { href: '#projects', key: 'work', label: 'Work'},
-    { href: '#faq', key: 'faq', label: 'FAQ'}
+    { href: 'https://johnmikoacuesta.github.io/#experiences', key: 'experience', label: 'Experience'},
+    { href: 'https://johnmikoacuesta.github.io/#testimonials', key: 'testimonials', label: 'Testimonial'},
+    { href: 'https://johnmikoacuesta.github.io/#projects', key: 'work', label: 'Work'},
+    { href: 'https://johnmikoacuesta.github.io/#faq', key: 'faq', label: 'FAQ'}
 ];
 
 // Footer Navigation

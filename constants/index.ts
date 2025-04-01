@@ -3,6 +3,7 @@ export const NAV_LINKS = [
     { href: 'https://johnmikoacuesta.github.io/#experiences', key: 'experience', label: 'Experience'},
     { href: 'https://johnmikoacuesta.github.io/#testimonials', key: 'testimonials', label: 'Testimonial'},
     { href: 'https://johnmikoacuesta.github.io/#projects', key: 'work', label: 'Work'},
+    { href: 'https://johnmikoacuesta.github.io/#blogs', key: 'blogs', label: 'Blog'},
     { href: 'https://johnmikoacuesta.github.io/#faq', key: 'faq', label: 'FAQ'}
 ];
 
